@@ -1,12 +1,16 @@
 {
-  "name": "financialApi",
+  "name": "financial-api",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Projetos-Rocketseat/financialApi.git",
   "author": "Rafael Mendes <faelmob@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "node-emoji": "^2.1.0",
